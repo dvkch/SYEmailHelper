@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		978847671E4B9766002DFC93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 978847661E4B9766002DFC93 /* main.m */; };
+		9788476A1E4B9766002DFC93 /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 978847691E4B9766002DFC93 /* SYAppDelegate.m */; };
+		9788476D1E4B9766002DFC93 /* SYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9788476C1E4B9766002DFC93 /* SYViewController.m */; };
+		978847701E4B9766002DFC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9788476E1E4B9766002DFC93 /* Main.storyboard */; };
+		978847721E4B9766002DFC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978847711E4B9766002DFC93 /* Assets.xcassets */; };
+		978847751E4B9766002DFC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 978847731E4B9766002DFC93 /* LaunchScreen.storyboard */; };
+		978847811E4B976F002DFC93 /* SYEmailHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9788477E1E4B976F002DFC93 /* SYEmailHelper.m */; };
+		978847821E4B976F002DFC93 /* SYEmailService.m in Sources */ = {isa = PBXBuildFile; fileRef = 978847801E4B976F002DFC93 /* SYEmailService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		978847621E4B9766002DFC93 /* SYEmailHelperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYEmailHelperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		978847661E4B9766002DFC93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		978847681E4B9766002DFC93 /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
+		978847691E4B9766002DFC93 /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
+		9788476B1E4B9766002DFC93 /* SYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYViewController.h; sourceTree = "<group>"; };
+		9788476C1E4B9766002DFC93 /* SYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYViewController.m; sourceTree = "<group>"; };
+		9788476F1E4B9766002DFC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		978847711E4B9766002DFC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		978847741E4B9766002DFC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		978847761E4B9766002DFC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9788477D1E4B976F002DFC93 /* SYEmailHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYEmailHelper.h; sourceTree = "<group>"; };
+		9788477E1E4B976F002DFC93 /* SYEmailHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYEmailHelper.m; sourceTree = "<group>"; };
+		9788477F1E4B976F002DFC93 /* SYEmailService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYEmailService.h; sourceTree = "<group>"; };
+		978847801E4B976F002DFC93 /* SYEmailService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYEmailService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9788475F1E4B9766002DFC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		978847591E4B9766002DFC93 = {
+			isa = PBXGroup;
+			children = (
+				9788477C1E4B976F002DFC93 /* SYEmailHelper */,
+				978847641E4B9766002DFC93 /* SYEmailHelperExample */,
+				978847631E4B9766002DFC93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		978847631E4B9766002DFC93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				978847621E4B9766002DFC93 /* SYEmailHelperExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		978847641E4B9766002DFC93 /* SYEmailHelperExample */ = {
+			isa = PBXGroup;
+			children = (
+				978847681E4B9766002DFC93 /* SYAppDelegate.h */,
+				978847691E4B9766002DFC93 /* SYAppDelegate.m */,
+				9788476B1E4B9766002DFC93 /* SYViewController.h */,
+				9788476C1E4B9766002DFC93 /* SYViewController.m */,
+				9788476E1E4B9766002DFC93 /* Main.storyboard */,
+				978847711E4B9766002DFC93 /* Assets.xcassets */,
+				978847731E4B9766002DFC93 /* LaunchScreen.storyboard */,
+				978847761E4B9766002DFC93 /* Info.plist */,
+				978847651E4B9766002DFC93 /* Supporting Files */,
+			);
+			path = SYEmailHelperExample;
+			sourceTree = "<group>";
+		};
+		978847651E4B9766002DFC93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				978847661E4B9766002DFC93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9788477C1E4B976F002DFC93 /* SYEmailHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9788477D1E4B976F002DFC93 /* SYEmailHelper.h */,
+				9788477E1E4B976F002DFC93 /* SYEmailHelper.m */,
+				9788477F1E4B976F002DFC93 /* SYEmailService.h */,
+				978847801E4B976F002DFC93 /* SYEmailService.m */,
+			);
+			name = SYEmailHelper;
+			path = ../SYEmailHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		978847611E4B9766002DFC93 /* SYEmailHelperExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 978847791E4B9766002DFC93 /* Build configuration list for PBXNativeTarget "SYEmailHelperExample" */;
+			buildPhases = (
+				9788475E1E4B9766002DFC93 /* Sources */,
+				9788475F1E4B9766002DFC93 /* Frameworks */,
+				978847601E4B9766002DFC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYEmailHelperExample;
+			productName = SYEmailHelperExample;
+			productReference = 978847621E4B9766002DFC93 /* SYEmailHelperExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9788475A1E4B9766002DFC93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SY;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Syan;
+				TargetAttributes = {
+					978847611E4B9766002DFC93 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 79RY8264V4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9788475D1E4B9766002DFC93 /* Build configuration list for PBXProject "SYEmailHelperExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 978847591E4B9766002DFC93;
+			productRefGroup = 978847631E4B9766002DFC93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				978847611E4B9766002DFC93 /* SYEmailHelperExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		978847601E4B9766002DFC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978847751E4B9766002DFC93 /* LaunchScreen.storyboard in Resources */,
+				978847721E4B9766002DFC93 /* Assets.xcassets in Resources */,
+				978847701E4B9766002DFC93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9788475E1E4B9766002DFC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9788476D1E4B9766002DFC93 /* SYViewController.m in Sources */,
+				9788476A1E4B9766002DFC93 /* SYAppDelegate.m in Sources */,
+				978847821E4B976F002DFC93 /* SYEmailService.m in Sources */,
+				978847811E4B976F002DFC93 /* SYEmailHelper.m in Sources */,
+				978847671E4B9766002DFC93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9788476E1E4B9766002DFC93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9788476F1E4B9766002DFC93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		978847731E4B9766002DFC93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				978847741E4B9766002DFC93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		978847771E4B9766002DFC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		978847781E4B9766002DFC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9788477A1E4B9766002DFC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79RY8264V4;
+				INFOPLIST_FILE = SYEmailHelperExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.syan.SYEmailHelperExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9788477B1E4B9766002DFC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79RY8264V4;
+				INFOPLIST_FILE = SYEmailHelperExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.syan.SYEmailHelperExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9788475D1E4B9766002DFC93 /* Build configuration list for PBXProject "SYEmailHelperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978847771E4B9766002DFC93 /* Debug */,
+				978847781E4B9766002DFC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		978847791E4B9766002DFC93 /* Build configuration list for PBXNativeTarget "SYEmailHelperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9788477A1E4B9766002DFC93 /* Debug */,
+				9788477B1E4B9766002DFC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9788475A1E4B9766002DFC93 /* Project object */;
+}
