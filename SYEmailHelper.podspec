@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name     = 'SYEmailHelper'
   s.version  = '1.0'
   s.license  = 'Custom'
-  s.summary  = 'Detect installed email clients and allow the user to choose one when sending an email'
+  s.summary  = 'Easily detect installed email clients and allow the user to choose one when sending an email'
   s.homepage = 'https://github.com/dvkch/SYEmailHelper'
   s.author   = { 'Stan Chevallier' => 'contact@stanislaschevallier.fr' }
   s.source   = { :git => 'https://github.com/dvkch/SYEmailHelper.git', :tag => s.version.to_s }

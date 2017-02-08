@@ -1,7 +1,7 @@
 SYEmailHelper
 =============
 
-Detect installed email clients and allow the user to choose one when sending an email.
+Easily detect installed email clients and allow the user to choose one when sending an email.
 
 I use it to quickly add a "Contact me" feature in my apps. This will detect a list of `SYEmailService`, representing:
 
