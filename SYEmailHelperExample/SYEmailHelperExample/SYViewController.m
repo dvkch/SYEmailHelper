@@ -30,7 +30,7 @@
     
     [SYEmailServicePasteboard setName:@"Copy email address to pasteboard"];
     [[SYEmailHelper shared] setShowCopyToPasteboard:YES];
-    [[SYEmailHelper shared] setActionSheetTitleText:@"Which app you wanna use bro?"];
+    [[SYEmailHelper shared] setActionSheetTitleText:@"Which app you wanna use?"];
     [[SYEmailHelper shared] setActionSheetCancelButtonText:@"fuhgeddaboudit"];
     [[SYEmailHelper shared] composeEmailWithAddress:self.fieldEmail.text
                                             subject:self.fieldSubject.text

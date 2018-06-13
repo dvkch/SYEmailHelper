@@ -43,6 +43,7 @@
 	</array>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>ms-outlook</string>
 		<string>googlegmail</string>
 		<string>inbox-gmail</string>
 	</array>
