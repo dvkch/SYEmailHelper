@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.ios.deployment_target  = '8.0'
   s.name     = 'SYEmailHelper'
-  s.version  = '1.1'
+  s.version  = '1.2'
   s.license  = 'Custom'
   s.summary  = 'Easily detect installed email clients and allow the user to choose one when sending an email'
   s.homepage = 'https://github.com/dvkch/SYEmailHelper'
