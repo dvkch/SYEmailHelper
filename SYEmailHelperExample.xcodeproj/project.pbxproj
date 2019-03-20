@@ -7,31 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		978847671E4B9766002DFC93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 978847661E4B9766002DFC93 /* main.m */; };
-		9788476A1E4B9766002DFC93 /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 978847691E4B9766002DFC93 /* SYAppDelegate.m */; };
-		9788476D1E4B9766002DFC93 /* SYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9788476C1E4B9766002DFC93 /* SYViewController.m */; };
+		2553C3A708F56130D4A9FE55 /* Pods_SYEmailHelperExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BABC5FD978BFF4F73FAE2D9 /* Pods_SYEmailHelperExample.framework */; };
 		978847701E4B9766002DFC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9788476E1E4B9766002DFC93 /* Main.storyboard */; };
 		978847721E4B9766002DFC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978847711E4B9766002DFC93 /* Assets.xcassets */; };
 		978847751E4B9766002DFC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 978847731E4B9766002DFC93 /* LaunchScreen.storyboard */; };
-		978847811E4B976F002DFC93 /* SYEmailHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9788477E1E4B976F002DFC93 /* SYEmailHelper.m */; };
-		978847821E4B976F002DFC93 /* SYEmailService.m in Sources */ = {isa = PBXBuildFile; fileRef = 978847801E4B976F002DFC93 /* SYEmailService.m */; };
+		97B58ECF22429D1900FD6836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B58ECE22429D1900FD6836 /* AppDelegate.swift */; };
+		97B58EEF22429D6900FD6836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B58EEE22429D6900FD6836 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001F041836DEA4545B5E15BA /* Pods-SYEmailHelperExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYEmailHelperExample.debug.xcconfig"; path = "Target Support Files/Pods-SYEmailHelperExample/Pods-SYEmailHelperExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2BABC5FD978BFF4F73FAE2D9 /* Pods_SYEmailHelperExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYEmailHelperExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		514E2FEC9CCE41C22F28C834 /* Pods-SYEmailHelperExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYEmailHelperExample.release.xcconfig"; path = "Target Support Files/Pods-SYEmailHelperExample/Pods-SYEmailHelperExample.release.xcconfig"; sourceTree = "<group>"; };
 		978847621E4B9766002DFC93 /* SYEmailHelperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYEmailHelperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		978847661E4B9766002DFC93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		978847681E4B9766002DFC93 /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
-		978847691E4B9766002DFC93 /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
-		9788476B1E4B9766002DFC93 /* SYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYViewController.h; sourceTree = "<group>"; };
-		9788476C1E4B9766002DFC93 /* SYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYViewController.m; sourceTree = "<group>"; };
 		9788476F1E4B9766002DFC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		978847711E4B9766002DFC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		978847741E4B9766002DFC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		978847761E4B9766002DFC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9788477D1E4B976F002DFC93 /* SYEmailHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYEmailHelper.h; sourceTree = "<group>"; };
-		9788477E1E4B976F002DFC93 /* SYEmailHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYEmailHelper.m; sourceTree = "<group>"; };
-		9788477F1E4B976F002DFC93 /* SYEmailService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYEmailService.h; sourceTree = "<group>"; };
-		978847801E4B976F002DFC93 /* SYEmailService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYEmailService.m; sourceTree = "<group>"; };
+		97B58ECE22429D1900FD6836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97B58EEE22429D6900FD6836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2553C3A708F56130D4A9FE55 /* Pods_SYEmailHelperExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,9 +43,10 @@
 		978847591E4B9766002DFC93 = {
 			isa = PBXGroup;
 			children = (
-				9788477C1E4B976F002DFC93 /* SYEmailHelper */,
 				978847641E4B9766002DFC93 /* SYEmailHelperExample */,
 				978847631E4B9766002DFC93 /* Products */,
+				AE74152F9534287C32960204 /* Pods */,
+				F85703D6C86E1025F48E910C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,14 +61,10 @@
 		978847641E4B9766002DFC93 /* SYEmailHelperExample */ = {
 			isa = PBXGroup;
 			children = (
-				978847681E4B9766002DFC93 /* SYAppDelegate.h */,
-				978847691E4B9766002DFC93 /* SYAppDelegate.m */,
-				9788476B1E4B9766002DFC93 /* SYViewController.h */,
-				9788476C1E4B9766002DFC93 /* SYViewController.m */,
+				97B58ECE22429D1900FD6836 /* AppDelegate.swift */,
+				97B58EEE22429D6900FD6836 /* ViewController.swift */,
 				9788476E1E4B9766002DFC93 /* Main.storyboard */,
 				978847711E4B9766002DFC93 /* Assets.xcassets */,
-				978847731E4B9766002DFC93 /* LaunchScreen.storyboard */,
-				978847761E4B9766002DFC93 /* Info.plist */,
 				978847651E4B9766002DFC93 /* Supporting Files */,
 			);
 			path = SYEmailHelperExample;
@@ -81,21 +73,27 @@
 		978847651E4B9766002DFC93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				978847661E4B9766002DFC93 /* main.m */,
+				978847731E4B9766002DFC93 /* LaunchScreen.storyboard */,
+				978847761E4B9766002DFC93 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9788477C1E4B976F002DFC93 /* SYEmailHelper */ = {
+		AE74152F9534287C32960204 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9788477D1E4B976F002DFC93 /* SYEmailHelper.h */,
-				9788477E1E4B976F002DFC93 /* SYEmailHelper.m */,
-				9788477F1E4B976F002DFC93 /* SYEmailService.h */,
-				978847801E4B976F002DFC93 /* SYEmailService.m */,
+				001F041836DEA4545B5E15BA /* Pods-SYEmailHelperExample.debug.xcconfig */,
+				514E2FEC9CCE41C22F28C834 /* Pods-SYEmailHelperExample.release.xcconfig */,
 			);
-			name = SYEmailHelper;
-			path = ../SYEmailHelper;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F85703D6C86E1025F48E910C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BABC5FD978BFF4F73FAE2D9 /* Pods_SYEmailHelperExample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 978847791E4B9766002DFC93 /* Build configuration list for PBXNativeTarget "SYEmailHelperExample" */;
 			buildPhases = (
+				FC6FA0114DC1E6933830B7B9 /* [CP] Check Pods Manifest.lock */,
 				9788475E1E4B9766002DFC93 /* Sources */,
 				9788475F1E4B9766002DFC93 /* Frameworks */,
 				978847601E4B9766002DFC93 /* Resources */,
+				2A6ED81002993A34EC8157B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +131,7 @@
 					978847611E4B9766002DFC93 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 79RY8264V4;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,16 +167,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A6ED81002993A34EC8157B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYEmailHelperExample/Pods-SYEmailHelperExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SYEmailHelper/SYEmailHelper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SYEmailHelper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYEmailHelperExample/Pods-SYEmailHelperExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6FA0114DC1E6933830B7B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYEmailHelperExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9788475E1E4B9766002DFC93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9788476D1E4B9766002DFC93 /* SYViewController.m in Sources */,
-				9788476A1E4B9766002DFC93 /* SYAppDelegate.m in Sources */,
-				978847821E4B976F002DFC93 /* SYEmailService.m in Sources */,
-				978847811E4B976F002DFC93 /* SYEmailHelper.m in Sources */,
-				978847671E4B9766002DFC93 /* main.m in Sources */,
+				97B58EEF22429D6900FD6836 /* ViewController.swift in Sources */,
+				97B58ECF22429D1900FD6836 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -307,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +362,32 @@
 		};
 		9788477A1E4B9766002DFC93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001F041836DEA4545B5E15BA /* Pods-SYEmailHelperExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 79RY8264V4;
 				INFOPLIST_FILE = SYEmailHelperExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.syan.SYEmailHelperExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		9788477B1E4B9766002DFC93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514E2FEC9CCE41C22F28C834 /* Pods-SYEmailHelperExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 79RY8264V4;
 				INFOPLIST_FILE = SYEmailHelperExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.syan.SYEmailHelperExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -358,6 +410,7 @@
 				9788477B1E4B9766002DFC93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
