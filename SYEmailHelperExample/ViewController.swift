@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         completionLabel.text = nil
         
-        PasteboardEmailService.name = "Copy email address to pasteboard"
+        PasteboardEmailService.name = "Copy email address to clipboard"
         
         EmailHelper.shared.showCopyToPasteBoard = true
         EmailHelper.shared.actionSheetTitle = "Which app you wanna use?"

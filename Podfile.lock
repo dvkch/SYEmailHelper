@@ -1,5 +1,5 @@
 PODS:
-  - SYEmailHelper (2.0)
+  - SYEmailHelper (2.0.1)
 
 DEPENDENCIES:
   - SYEmailHelper (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  SYEmailHelper: 6a57d238232331bc5c7128645d69c67d487db3b4
+  SYEmailHelper: 89be0f2615c957cd077456b03c095232c61cddec
 
 PODFILE CHECKSUM: b7733e9cd808abd953ae2e55b54840859c351fb2
 
