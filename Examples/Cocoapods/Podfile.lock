@@ -1,0 +1,16 @@
+PODS:
+  - SYEmailHelper (2.2.0)
+
+DEPENDENCIES:
+  - SYEmailHelper (from `../../`)
+
+EXTERNAL SOURCES:
+  SYEmailHelper:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  SYEmailHelper: 3427db4e47491546349d47d876d9a6eca983f72b
+
+PODFILE CHECKSUM: 022b5370cd5656440b2a4d94721739142b0ffc75
+
+COCOAPODS: 1.11.2
