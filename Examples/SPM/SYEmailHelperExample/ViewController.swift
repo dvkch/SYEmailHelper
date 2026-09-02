@@ -3,7 +3,7 @@
 //  SYEmailHelperExample
 //
 //  Created by Stanislas Chevallier on 20/03/2019.
-//  Copyright © 2019 Syan. All rights reserved.
+//  Copyright © 2019 Syan.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         completionLabel.text = nil
     }
-    
+
     // MARK: Views
     @IBOutlet private var emailField: UITextField!
     @IBOutlet private var subjectField: UITextField!
@@ -24,16 +24,16 @@ class ViewController: UIViewController {
 
     // MARK: Actions
     @IBAction private func sendButtonTap(sender: UIButton?) {
-        
+
         completionLabel.text = nil
-        
+
         PasteboardEmailService.name = "Copy email address to clipboard"
-        
+
         EmailHelper.shared.showCopyToPasteBoard = true
         EmailHelper.shared.actionSheetTitle = "Which app you wanna use?"
         EmailHelper.shared.actionSheetMessage = "We support some third party apps, native email client and copying to clipboard if your favorite app is not supported"
         EmailHelper.shared.actionSheetCancelButtonText = "Meh..."
-        
+
         EmailHelper.shared.presentActionSheet(
             address: emailField.text,
             subject: subjectField.text,

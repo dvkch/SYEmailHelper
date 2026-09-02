@@ -125,7 +125,6 @@ Simply:
 License
 ===
 
-Use it as you like in every project you want, redistribute with mentions of my name and don't blame me if it breaks :)
+MPL-2.0
 
 -- dvkch
- 

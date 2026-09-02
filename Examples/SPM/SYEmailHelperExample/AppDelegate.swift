@@ -3,7 +3,7 @@
 //  SYEmailHelperExample
 //
 //  Created by Stanislas Chevallier on 20/03/2019.
-//  Copyright © 2019 Syan. All rights reserved.
+//  Copyright © 2019 Syan.
 //
 
 import UIKit
@@ -43,4 +43,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

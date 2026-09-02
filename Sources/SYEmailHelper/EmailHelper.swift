@@ -3,7 +3,7 @@
 //  SYEmailHelper
 //
 //  Created by Stanislas Chevallier on 20/03/2019.
-//  Copyright © 2019 Syan. All rights reserved.
+//  Copyright © 2019 Syan.
 //
 
 import Foundation
@@ -12,7 +12,7 @@ import UIKit
 @objc public enum EmailHelperError: Int, Error, CustomNSError, LocalizedError {
     case noServiceAvailable
     case couldnotOpenThirdPartyApp
-    
+
     var localizedDescription: String {
         switch self {
         case .noServiceAvailable:           return "No email service available"
@@ -22,21 +22,21 @@ import UIKit
 }
 
 @objcMembers public class EmailHelper : NSObject {
- 
+
     public static let shared = EmailHelper()
 
     public var actionSheetTitle: String?
     public var actionSheetMessage: String?
     public var actionSheetCancelButtonText: String? = "Cancel"
     public var showCopyToPasteBoard: Bool = true
-    
+
     public static var allThirdPartyServices: [ThirdPartyAppEmailService] {
         return [ThirdPartyAppEmailService.gmailService,
                 ThirdPartyAppEmailService.googleInboxService,
                 ThirdPartyAppEmailService.microsoftOutlookService,
                 ThirdPartyAppEmailService.sparkService]
     }
-    
+
     public static var allServices: [EmailService] {
         #if targetEnvironment(macCatalyst)
         return [MailtoLinkEmailService()]
@@ -44,11 +44,11 @@ import UIKit
         return allThirdPartyServices + [NativeEmailService(), PasteboardEmailService()]
         #endif
     }
-    
+
     public static var availableServices: [EmailService] {
         return allServices.filter { $0.isAvailable }
     }
-    
+
     public func presentActionSheet(
         address: String?,
         subject: String?,
@@ -58,16 +58,16 @@ import UIKit
         completion: ((_ cancelled: Bool, _ service: EmailService?, _ error: Error?) -> ())?)
     {
         var services = EmailHelper.availableServices
-        
+
         if !showCopyToPasteBoard {
             services = services.filter { !$0.isKind(of: PasteboardEmailService.self) }
         }
-        
+
         guard !services.isEmpty else {
             completion?(false, nil, EmailHelperError.noServiceAvailable)
             return
         }
-        
+
         guard services.count > 1 else {
             services.first?.launch(
                 address: address?.trimmingCharacters(in: .whitespacesAndNewlines),
@@ -78,9 +78,9 @@ import UIKit
             }
             return
         }
-        
+
         let actionSheet = UIAlertController(title: actionSheetTitle, message: actionSheetMessage, preferredStyle: .actionSheet)
-        
+
         for service in services {
             actionSheet.addAction(UIAlertAction(title: service.name, style: .default) { (_) in
                 service.launch(
@@ -92,11 +92,11 @@ import UIKit
                 }
             })
         }
-        
+
         actionSheet.addAction(UIAlertAction(title: actionSheetCancelButtonText, style: .cancel, handler: { (_) in
             completion?(true, nil, nil)
         }))
-        
+
         if let sender = sender as? UIBarButtonItem {
             actionSheet.popoverPresentationController?.barButtonItem = sender
         }
@@ -105,7 +105,7 @@ import UIKit
             actionSheet.popoverPresentationController?.sourceView = presentingViewController.view
             actionSheet.popoverPresentationController?.sourceRect = presentingViewController.view.convert(sender.bounds, from: sender)
         }
-        
+
         presentingViewController.present(actionSheet, animated: true, completion: nil)
     }
 }
